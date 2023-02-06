@@ -1,0 +1,25 @@
+Huong Dan Cai Dat Game Tai Xiu 
+
+  ***Cai dat***
+
+- cai MongoDB, node js
+- chay cmd trong thu muc chua file
+	+ chay server (node server)
+	+ chay bot (node bot)
+	+ chay chat_bot(neu co)
+- user admin: 123456
+
+  ***Loi thuong gap***
+
+- Cach Fix neu sai port
+	( ai dung localhost thi sua dia chi lai "127.0.0.1" 
+  	vao duong dan "Public/Web(tuy vao ten)/src" sua file "Project.js"
+ 	 tim tu khoa "this.connect" de sua lai dia chi ).
+=> Ben admin cung lam tuong tu
+
+- Cach Fix neu loi phien ban nodejs trong thu muc "node_modules"
+	( Vao cmd go lenh : $rm -rf node_modules
+		tiep lenh : $npm update )
+=> Nghia la xoa thu muc node_modules do de tao cai moi.
+
+## Luu y, trong luc chay khong tat server ##
